@@ -418,6 +418,10 @@
 
 
 @media screen and (max-width: 768px) {
+  .empower-icons {
+    margin-left: 60px;
+  }
+
   .benefits-wrapper {
     grid-template-columns: repeat(2, 300px);
     margin: 0;
@@ -580,7 +584,7 @@
 }
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 450px) {
   [aria-controls="navbardropdown"] {
     margin-right: 20px;
   }
@@ -641,7 +645,7 @@
   .empower-icons {
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
     gap: 5px;
-    margin-left: 50px;
+    margin-left: 90px;
     padding-right: 0;
   }
 
